@@ -8,7 +8,7 @@ job('save-youtube-music') {
     stringParam('ARTIST')
   }
   scm {
-    github('mtbkapp/friday-disc-pipeline')
+    github('albinouty/youtube_audio_ripper')
   }
   steps {
     shell('rm -f youtube_*')
