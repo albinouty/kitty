@@ -8,7 +8,7 @@ job('save-youtube-music') {
     stringParam('ARTIST')
   }
   scm {
-    github('albinouty/youtube_audio_ripper')
+    github('albinouty/kitty')
   }
   steps {
     shell('rm -f youtube_*')
